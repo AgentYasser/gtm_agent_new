@@ -1,6 +1,7 @@
 name: GTM Agent
 
 on:
+  workflows_dispatch
   issue_comment:
     types: [created]
 
